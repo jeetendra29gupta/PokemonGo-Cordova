@@ -1,0 +1,24 @@
+{
+  "name": "org.juju.pokemongo",
+  "displayName": "PokemonGo",
+  "version": "1.0.0",
+  "description": "Discover and interact with your favorite Pokémon in this fun and immersive app. Explore a variety of Pokémon, view their details, and learn about their abilities, types, and evolution. A simple yet engaging experience for Pokémon fans of all ages!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Jeetendra Gupta",
+  "license": "Apache-2.0",
+  "cordova": {
+    "platforms": [
+      "android"
+    ],
+    "plugins": {}
+  },
+  "devDependencies": {
+    "cordova-android": "^13.0.0"
+  }
+}

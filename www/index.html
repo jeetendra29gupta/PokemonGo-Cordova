@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self' data: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content: https://raw.githubusercontent.com; script-src 'self' 'unsafe-inline'; connect-src 'self' https://beta.pokeapi.co;">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width, viewport-fit=cover">
+    <meta name="color-scheme" content="light dark">
+    <link rel="stylesheet" href="css/w3.css">
+    <link rel="icon" type="image/png" href="img/pokemon.png" />
+    <title>Pokemon Go</title>
+</head>
+
+<body class="w3-container w3-sand">
+
+    <!-- Logo & Header -->
+    <header class="w3-panel w3-center w3-light-blue w3-round w3-card w3-bottombar w3-border-red">
+        <h1>
+            <img src="img/pokemon.png" alt="pokemon" width="36px" height="36px">
+            <strong>Pokemon Go</strong>
+        </h1>
+    </header>
+
+    <!-- Search input field -->
+    <input class="w3-input w3-section w3-border w3-round w3-light-grey w3-center" type="text" id="searchInput"
+        placeholder=" &#128270; Search Pokemon By Name &#128269;">
+
+    <!-- Main -- Display Box -->
+    <main class="w3-row" id="pokemon-go-data"></main>
+
+    <!-- Page -->
+    <footer class="w3-row-padding w3-section w3-stretch">
+        <div class="w3-col s6">
+            <strong class="w3-left w3-button w3-round w3-light-blue" id="left_arrow">
+                <span style='font-size:24px;'>&#171;</span>
+            </strong>
+        </div>
+
+        <div class="w3-col s6">
+            <strong class="w3-right w3-button w3-round w3-light-blue" id="right_arrow">
+                <span style='font-size:24px;'>&#187;</span>
+            </strong>
+        </div>
+    </footer>
+
+    <br />
+
+
+    <script src="cordova.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

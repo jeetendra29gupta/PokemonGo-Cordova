@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="org.juju.pokemongo" version="1.0.0" xmlns="http://www.w3.org/ns/widgets"
+    xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>PokemonGo</name>
+    <description>Discover and interact with your favorite Pokémon in this fun and immersive app.
+        Explore a variety of Pokémon, view their details, and learn about their abilities, types,
+        and evolution. A simple yet engaging experience for Pokémon fans of all ages!</description>
+    <author email="jeetendra29gupta@gmail.com" href="https://github.com/jeetendra29gupta">
+        Jeetendra Gupta
+    </author>
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <platform name="android">
+        <icon src="www/img/pokemon.png" />
+    </platform>
+    <preference name="SplashScreen" value="none" />
+</widget>
